@@ -1,0 +1,24 @@
+body {
+  font-size: 10px;
+}
+
+body div {
+  background: #000;
+}
+
+.her {
+}
+.fss {
+}
+.dcdc {
+}
+
+@media (max-width: 234px) {
+  .fss {
+
+  }
+}
+
+.fss {
+  
+}
