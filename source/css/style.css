@@ -111,8 +111,8 @@ body.lock {
 }
 
 .logo {
+  font-size: calc(24px + (33 - 24) * ((100vw - 320px) / 860));
   color: #fff;
-  font-size: 33px;
   font-weight: 700;
 }
 
@@ -143,6 +143,12 @@ body.lock {
   min-height: 109px;
   z-index: 4;
   background: rgba(24, 24, 24, 0.8);
+}
+
+@media (max-width: 768px) {
+  .intro__header {
+    min-height: 80px;
+  }
 }
 
 .intro__header__inner {
@@ -250,8 +256,8 @@ body.lock {
   .intro__burger {
     display: block;
     position: relative;
-    height: 50px;
-    width: 70px;
+    height: 42px;
+    width: 53px;
     top: 8px;
   }
   .intro__burger::after, .intro__burger::before,
