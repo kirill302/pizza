@@ -46,9 +46,10 @@ body {
 
 .logo {
    @extend %mon;
+   @include adaptiv-value('font-size', 33, 24);
+
 
    color: #fff;
-   font-size: 33px;
    font-weight: 700;
 
    span {
@@ -67,7 +68,6 @@ body {
    background-size: cover;
 }
 .intro__header {
-
    top: 0;
    left: 0;
    width: 100%;
@@ -75,6 +75,11 @@ body {
    min-height: 109px;
    z-index: 4;
    background: rgba(24,24,24, 0.8);
+
+   @media (max-width: 768px) {
+      min-height: 80px;
+      
+   }
 }
 .intro__header__inner {
    width: 100%;
@@ -171,9 +176,10 @@ body {
    .intro__burger {
       display: block;
       position: relative; 
-      height: 50px;
-      width: 70px;
+      height: 42px;
+      width: 53px;
       top: 8px;
+
 
       &::after,
       &::before,
