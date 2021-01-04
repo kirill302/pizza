@@ -139,7 +139,7 @@ body.lock {
           flex-direction: column;
   height: 100vh;
   min-height: 450px;
-  background: url(../images/header/header_bg.png) no-repeat center;
+  background: url(../images/header/header_bg.jpg) no-repeat center;
   background-position: center 0;
   background-size: cover;
 }
@@ -575,7 +575,7 @@ body.lock {
 /* menu*/
 .menu {
   min-height: calc(900px + (1000 - 900) * ((100vw - 320px) / 860));
-  background: url(../images/menu/menu__bg.png) #242424 no-repeat center;
+  background: url(../images/menu/menu__bg.jpg) #242424 no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding: 80px 0 50px 0;
@@ -811,7 +811,7 @@ body.lock {
 .masterclass {
   padding-top: calc(45px + (100 - 45) * ((100vw - 320px) / 860));
   padding-bottom: calc(45px + (100 - 45) * ((100vw - 320px) / 860));
-  background: url(../images/masterclass/masterclass__bg.png) #242424 no-repeat center;
+  background: url(../images/masterclass/masterclass__bg.jpg) #242424 no-repeat center;
   background-size: cover;
 }
 
