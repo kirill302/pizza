@@ -14,11 +14,6 @@
    family=Raleway:wght@300;400;500;700&
    family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- font awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" 
-    integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" 
-    crossorigin="anonymous"></script>
-
     <!-- swiper style -->
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -43,7 +38,10 @@
       <span href="#" class="logo"><a href="#"><i>#</i>pizzeria.</a></span>
    -->
 
-   <section class="intro__header">
+   
+
+   <div class="wrapper">
+      <header class="intro__header">
       <div class="container">
          <div class="intro__header__inner">
             <span href="#" class="logo logo_intro"><a href="#"><i>#</i>pizzeria.</a></span>
@@ -59,9 +57,8 @@
             </div>
          </div>
       </div>
-   </section>
+      </header>
 
-   <div class="wrapper">
       <section class="intro">
           <div class="intro__content">
             <div class="container">
@@ -328,6 +325,12 @@
       </div><!--/footer-info-->
    </div> <!--/wrapper-->
 
+
+   <!-- font awesome -->
+   <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" 
+   integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" 
+   crossorigin="anonymous"></script>
+   
    <!-- swiper scripts -->
    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -345,7 +348,6 @@
             $('.intro__nav,.intro__burger').toggleClass('active');
             $('body').toggleClass('lock');
          });
-
       });
 
       // slider
