@@ -155,7 +155,7 @@ body {
 
 @media (max-width: 768px) {
    .intro__header__inner {
-      padding-top: 20px;
+      padding-top: 11px;
    }
    .intro__nav {
       padding: 20px 0 0 20px;
@@ -466,6 +466,7 @@ body {
    flex-wrap: wrap;
 }
 .advantages__item {
+   padding-left: 10px;
    width: 27%;
 
    list-style-type: upper-roman;
@@ -496,14 +497,12 @@ body {
    &::before{
    top: 16px;
 
-   
-
       content: '';
       display: inline-block;
       width: 10px;
       height: 10px;
       background: #ffffff;
-      left: -13px;
+      left: -22px;
       position: absolute;
       z-index: 3;
 
@@ -532,14 +531,14 @@ body {
       align-items: center;
 
       li {
-         width: 77%;
+         width: 78%;
          margin-bottom: 20px;
       }
    }
 }
 @media (max-width: 425px) {
    .advantages__list li {
-      width: 90%;
+      width: 78%;
    }
 }
 
