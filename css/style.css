@@ -1382,6 +1382,8 @@ body.lock {
   font-size: 33px;
   color: #ffbb00;
   font-weight: bold;
+  text-shadow: 1px 1px 3px #242424;
+  
 }
 
 @media (max-width: 1200px) {
